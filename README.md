@@ -4,10 +4,12 @@ Application for user to input StackOverFlow profile URL, and see his ranking amo
 
 
 ## How to run the code
-1.	Run 'app.py' file. 
-2.	After running the script, we can see the user interface, input any StackOverFlow profile's URL. (e.g.: https://stackoverflow.com/users/696257/dkulkarni)
-3.	Click button 'See your ranking in Melbourne'.
-4.	Result shows (1)your reputation, (2)your rank in Melbourne, (3)percentage over all Melbourne StackOverFlow users, and (4)where you are at the Histogram of Melbourne StackOverFlow users' reputation.
+1.  Download 'app.py' and 'data.csv' in the same folder.
+2.	Run 'app.py' file. 
+3.	After running the script, we can see the user interface, input any StackOverFlow profile's URL. (e.g.: https://stackoverflow.com/users/696257/dkulkarni)
+4.	Click button 'See your ranking in Melbourne'.
+5.	Result shows (1)your reputation, (2)your rank in Melbourne, (3)percentage over all Melbourne StackOverFlow users, and (4)where you are at the Histogram of Melbourne StackOverFlow users' reputation.
+6.  The 'data analysis.py' is used to estimate total users number, 'scrap data.py' is the file to scrap reputation information of all Melbourne StackOverFlow users.
 
 ## Implementation details
 #### Step1. Statistics of all StackOverFlow users' reputation in Melbourne
