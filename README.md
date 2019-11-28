@@ -24,7 +24,7 @@ Realizing that most of the users are those with low reputation 1, in this progra
 
 #### Step2. Data analysis
 
-<div align=center><img width="300" height="400" src="https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/2.PNG"/></div>
+<div align=center><img width="400" height="300" src="https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/2.PNG"/></div>
 
 Because there remaining many pages unsearched. We need to estimate the remaining Melbourne users. 
 
