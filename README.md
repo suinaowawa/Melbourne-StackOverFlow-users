@@ -11,7 +11,9 @@ Application for user to input StackOverFlow profile URL, and see his ranking amo
 
 ## Implementation details
 #### Step1. Statistics of all StackOverFlow users' reputation in Melbourne
+
 <div align=center><img width="300" height="300" src="https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/3.PNG"/></div>
+
 The website to scrap all users reputation is ['this'](https://stackoverflow.com/users?page=%d&tab=Reputation&filter=all)
 
 On each page, search through all users and filter out the user location with 'Melbourne', record their reputation and page number in pandas dataframe.
@@ -19,7 +21,9 @@ On each page, search through all users and filter out the user location with 'Me
 On this website there are in total 304,877 and it's keep growing! To scrap all data requires a huge amount of time. Realizing that most of the users are those with low reputation 1, in this program a total of 93,878 pages were scrapped, and 5,664 Melbourne users were found. The rest of the users are all with reputation 1.
 
 #### Step2. Data analysis
-<div align=center><img width="300" height="300" src="https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/2.PNG"/></div>
+
+<div align=center><img width="300" height="400" src="https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/2.PNG"/></div>
+
 Because there remaining many pages unsearched. We need to estimate the remaining Melbourne users. 
 
 By plotting the relationship between page number with founder users count, we can do the curve fitting on the data and estimate the total Melbourne users.
@@ -27,7 +31,9 @@ By plotting the relationship between page number with founder users count, we ca
 Using polynomial fit of degrees 3, the estimated total Melbourne users are 151,601, given a total pages of 304,877.
 
 #### Step3. The Appication
+
 ![Alt text](https://github.com/suinaowawa/Melbourne-StackOverFlow-users-ranking/blob/master/figures/1.PNG)
+
 When user input the URL, get the reputation from that URL, then compare it with the data we got in step1 by reordering the pandas dataframe by the reputation column.
 
 When we get the rank, divide by the total Melbourne users we estimate in step2 to get the percentage.
