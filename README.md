@@ -18,7 +18,9 @@ The website to scrap all users reputation is ['this'](https://stackoverflow.com/
 
 On each page, search through all users and filter out the user location with 'Melbourne', record their reputation and page number in pandas dataframe.
 
-On this website there are in total 304,877 and it's keep growing! To scrap all data requires a huge amount of time. Realizing that most of the users are those with low reputation 1, in this program a total of 93,878 pages were scrapped, and 5,664 Melbourne users were found. The rest of the users are all with reputation 1.
+On this website there are in total 304,877 and it's keep growing! To scrap all data requires a huge amount of time. 
+
+Realizing that most of the users are those with low reputation 1, in this program a total of 93,878 pages were scrapped, and 5,664 Melbourne users were found. The rest of the users are all with reputation 1.
 
 #### Step2. Data analysis
 
