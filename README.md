@@ -1,6 +1,6 @@
 # Melbourne-StackOverFlow-users-ranking
 Application for user to input StackOverFlow profile URL, and see his ranking among all Melbourne StackOverFlow users.
-#### _**To quickly understand how this program works, watch ['this'](https://youtu.be/hm2J23zugUU) video clips!**_
+#### _**To quickly understand how this program works, watch ['this'](https://youtu.be/hm2J23zugUU)  video clips!**_
 
 
 ## How to run the code
