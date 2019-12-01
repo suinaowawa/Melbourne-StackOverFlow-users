@@ -16,9 +16,9 @@ In order to speed up the scraping process, use 'multiprocessing' to in Python ru
 
 See 'scrap data_parallel.py'. The example scrapped data in 100 pages is in file 'data2.csv'.
 
-* Total time use to scrap 100 pages (New parallel method, 'scrap data_parallel.py'): 10.5 seconds *
+* Total time use to scrap 100 pages (New parallel method, 'scrap data_parallel.py'): **10.5 seconds**
 
-* Total time use to scrap 100 pages (Old parallel method, 'scrap data.py'): 62.7 seconds *
+* Total time use to scrap 100 pages (Old parallel method, 'scrap data.py'): **62.7 seconds **
 
 ## Implementation details
 #### Step1. Statistics of all StackOverFlow users' reputation in Melbourne
