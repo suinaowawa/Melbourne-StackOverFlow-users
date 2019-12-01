@@ -12,7 +12,7 @@ Application for user to input StackOverFlow profile URL, and see his ranking amo
 6.  The 'data analysis.py' is used to estimate total users number, 'scrap data.py' is the file to scrap reputation information of all Melbourne StackOverFlow users.
 ## Update: Speed up web scraping by using _Multiprocessing_
 
-In order to speed up the scraping process, use 'multiprocessing' to in Python run scraper in parallel. 
+In order to speed up the scraping process, use 'multiprocessing' to in Python to run scraper in parallel. 
 
 See 'scrap data_parallel.py'. The example scrapped data in 100 pages is in file 'data2.csv'.
 
