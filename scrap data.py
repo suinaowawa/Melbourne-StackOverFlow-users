@@ -29,14 +29,11 @@ def format_time(seconds):
         return "%.2f hours" % (h,)
 
 # Function to get the HTML text
-def getHTMLText(k):
+def getHTMLText(url,k):
     try:
-        if(k==0):kw={}
-        else: kw={'start':k,'filter':''}
-        url = 'https://stackoverflow.com/users?page=%d&tab=Reputation&filter=all'%k
+        kw={'page':k,'tab':'Reputation','filter':'all'}
         r = requests.get(url,params=kw,headers={'User-Agent': 'Mozilla/4.0'})
         r.raise_for_status()
-        r.encoding = r.apparent_encoding
         return r.text
     except:
         print("Failed!")
@@ -88,13 +85,14 @@ def getData(html,k):
 # main
 
 start_time = datetime.datetime.now()
+basic_url = 'https://stackoverflow.com/users'
 k = 0 # start page
 while k<=304877:    
     if flag == 1:
         #break loop when found user with reputation 1
         break
     k+=1
-    html=getHTMLText(k)
+    html=getHTMLText(basic_url,k)
     getData(html,k)
     end_time = datetime.datetime.now()
     dt = end_time - start_time
