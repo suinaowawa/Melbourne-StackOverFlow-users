@@ -10,6 +10,11 @@ Application for user to input StackOverFlow profile URL, and see his ranking amo
 4.	Click button 'See your ranking in Melbourne'.
 5.	Result shows (1)your reputation, (2)your rank in Melbourne, (3)percentage over all Melbourne StackOverFlow users, and (4)where you are at the Histogram of Melbourne StackOverFlow users' reputation.
 6.  The 'data analysis.py' is used to estimate total users number, 'scrap data.py' is the file to scrap reputation information of all Melbourne StackOverFlow users.
+## Update: Speed up web scraping by using _Multiprocessing_
+
+In order to speed up the scraping process, use 'multiprocessing' to in Python run scraper in parallel. See 'scrap data_parallel.py'. The example scrapped data in 100 pages is in file 'data2.csv'.
+Total time use to scrap 100 pages (New parallel method, 'scrap data_parallel.py'): *10.5* seconds
+Total time use to scrap 100 pages (Old parallel method, 'scrap data.py'): *62.7* seconds
 
 ## Implementation details
 #### Step1. Statistics of all StackOverFlow users' reputation in Melbourne
